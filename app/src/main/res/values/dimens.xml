@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="headerTextSize">25sp</dimen>
+    <dimen name="newsMoreTextSize">12sp</dimen>
+    <dimen name="loginViewsMargin">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--start activity-->
+
+    <dimen name="signup_text_margin_top">10dp</dimen>
+
+    //
+
+    <dimen name="loginCardRadius">20dp</dimen>
+
+    //
+    <dimen name="padding_16">16dp</dimen>
+
+
+    <dimen name="space_5dp">5dp</dimen>
+    <dimen name="space_10dp">10dp</dimen>
+    <dimen name="space_15dp">15dp</dimen>
+    <dimen name="space_20dp">20dp</dimen>
+    <dimen name="space_50dp">50dp</dimen>
+
+
+    //new
+
+    <!--shimmer dimes-->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    //
+
+
+</resources>

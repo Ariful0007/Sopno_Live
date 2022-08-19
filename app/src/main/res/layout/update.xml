@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileUpdate">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileImage"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/profile_image"
+
+
+                    app:civ_border_color="@color/com6"
+                    app:civ_border_width="2dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/space_10dp"
+                        android:layout_marginRight="@dimen/space_10dp"
+                        android:gravity="center_vertical"
+                        android:text="Your Name"
+                        android:textStyle="normal"
+                        android:textAlignment="viewStart"
+                        android:textColor="#756F6F"
+
+
+                        ></TextView>
+                    <EditText
+                        android:id="@+id/spinner1"
+                        android:background="@drawable/border"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:inputType="text"
+                        android:layout_marginRight="@dimen/space_20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_50dp"
+                        ></EditText>
+                    <TextView
+
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/space_10dp"
+                        android:layout_marginRight="@dimen/space_10dp"
+                        android:gravity="center_vertical"
+                        android:text="Phone Number"
+                        android:textStyle="normal"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/black"
+
+
+                        ></TextView>
+                    <EditText
+                        android:id="@+id/number"
+
+                        android:background="@drawable/border"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:inputType="text"
+                        android:enabled="false"
+                        android:layout_marginRight="@dimen/space_20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_50dp"
+                        ></EditText>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/space_10dp"
+                        android:layout_marginRight="@dimen/space_10dp"
+                        android:gravity="center_vertical"
+                        android:text="Profession"
+                        android:textStyle="normal"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/black"
+
+
+                        ></TextView>
+                    <EditText
+                        android:id="@+id/preos"
+
+
+                        android:background="@drawable/border"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:inputType="text"
+                        android:layout_marginRight="@dimen/space_20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_50dp"
+                        ></EditText>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/space_10dp"
+                        android:layout_marginRight="@dimen/space_10dp"
+                        android:gravity="center_vertical"
+                        android:text="Date of Birth"
+                        android:textStyle="normal"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/black"
+
+
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/dob"
+
+                        android:background="@drawable/border"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textAlignment="center"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:inputType="text"
+                        android:layout_marginRight="@dimen/space_20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_50dp"
+                        ></TextView>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="@dimen/space_10dp"
+                        android:layout_marginRight="@dimen/space_10dp"
+                        android:gravity="center_vertical"
+                        android:text="Your Gender"
+                        android:textStyle="normal"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/black"
+
+
+                        ></TextView>
+                    <Spinner
+                        android:id="@+id/mainspinner"
+
+
+                        android:background="@drawable/border"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:inputType="text"
+                        android:layout_marginRight="@dimen/space_20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space_50dp"
+                        ></Spinner>
+                    <Button
+                        android:onClick="cli"
+                        android:id="@+id/cirLoginButton"
+                        style="@style/loginButton"
+                        android:text="SUBMIT"
+                        android:textAllCaps="true"
+
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/loginViewsMargin"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

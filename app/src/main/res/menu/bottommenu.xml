@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:id="@+id/home"
+        ></item>
+    <item
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:id="@+id/profile"
+        ></item>
+    <item
+        android:title="Live"
+        android:icon="@drawable/ic_baseline_videocam_24"
+        android:id="@+id/bank"
+        ></item>
+    <item
+        android:title="Chat"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:id="@+id/Message"
+        ></item>
+    <item
+        android:title="Profile"
+        android:icon="@drawable/userdash"
+        android:id="@+id/profidle"
+        ></item>
+
+</menu>

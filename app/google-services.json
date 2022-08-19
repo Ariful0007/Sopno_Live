@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "869098976137",
+    "firebase_url": "https://sopnolive-5daa3-default-rtdb.firebaseio.com",
+    "project_id": "sopnolive-5daa3",
+    "storage_bucket": "sopnolive-5daa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869098976137:android:71ec7ec8b1436d0ece6758",
+        "android_client_info": {
+          "package_name": "com.meass.sopno_live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869098976137-7l8d7mjg1srf0cvhdbemv6pul925gupp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7yjLD9tlclhLrXmPDSH-h--OPbfDQDPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869098976137-7l8d7mjg1srf0cvhdbemv6pul925gupp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
